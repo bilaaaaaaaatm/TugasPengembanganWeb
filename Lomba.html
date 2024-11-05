@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Lomba Olahraga Kemerdekaan</title>
+    <style>
+        /* Reset margin dan padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Mengatur font dan background dasar */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff; /* Putih untuk tema kemerdekaan */
+        }
+
+        /* Gaya untuk header dan footer */
+        header, footer {
+            background-color: #c62828; /* Warna merah untuk header dan footer */
+            color: #ffffff; /* Warna putih untuk teks di header dan footer */
+            padding: 1em;
+            text-align: center;
+        }
+
+        /* Gaya untuk elemen main */
+        main {
+            padding: 1em;
+            background-color: #f9f9f9; /* Warna putih terang untuk kontras di main */
+        }
+
+        /* Gaya untuk nav */
+        nav {
+            margin: 1em 0;
+            font-size: 1em;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            color: #ffd700; /* Warna kuning untuk efek hover */
+        }
+
+        /* Gaya untuk article dan aside */
+        article, aside {
+            background-color: #ffe4e1; /* Pastel merah muda untuk latar belakang elemen */
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #c62828; /* Warna merah lebih gelap untuk border */
+            border-radius: 8px;
+        }
+
+        /* Layout untuk konten utama */
+        .content-wrapper {
+            display: flex;
+            gap: 1em;
+            flex-wrap: wrap;
+        }
+
+        .articles {
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+
+        aside {
+            flex: 1;
+        }
+
+        /* Gaya untuk gambar dan biodata dalam aside */
+        aside img {
+            border-radius: 8px;
+            margin-top: 10px;
+            width: 100%;
+            height: auto;
+        }
+
+        .biodata {
+            margin-top: 10px;
+            background-color: #ffffff;
+            padding: 10px;
+            border: 1px solid #c62828;
+            border-radius: 8px;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bagian Header -->
+    <header>
+        <h1>Pendaftaran Peserta Lomba Olahraga Kemerdekaan</h1>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">Tentang</a> |
+            <a href="pendaftaran.html">Daftar</a> |
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Bagian Main -->
+    <main>
+        <section id="intro">
+            <article>
+                <h2>Selamat Datang di Lomba Olahraga Kemerdekaan</h2>
+                <p>
+                    Dalam semangat kemerdekaan Indonesia yang ke-79, kami dengan bangga mengundang seluruh putra-putri bangsa untuk bergabung dalam Lomba Olahraga Kemerdekaan! Acara ini lebih dari sekadar pertandingan olahraga; ini adalah momen untuk memupuk persatuan, menginspirasi generasi muda, dan menunjukkan bahwa kita, sebagai satu bangsa, siap untuk bersaing dan berkarya demi masa depan yang lebih gemilang. Jadilah bagian dari sejarah ini dan tunjukkan bahwa Indonesia memiliki bakat-bakat luar biasa yang siap bersaing di tingkat dunia!
+                </p>
+            </article>
+        </section>
+        
+        <div class="content-wrapper">
+            <!-- Artikel Utama -->
+            <div class="articles">
+                <article>
+                    <h2>Persyaratan Pendaftaran</h2>
+                    <p>Untuk mengikuti Lomba Olahraga Kemerdekaan, setiap peserta harus memenuhi syarat-syarat berikut:</p>
+                    <ul>
+                        <li><strong>Kewarganegaraan:</strong> Warga Negara Indonesia.</li>
+                        <li><strong>Usia:</strong> Minimal 17 tahun pada tanggal pendaftaran, tanpa batasan usia maksimal.</li>
+                        <li><strong>Kesehatan:</strong> Memiliki kondisi fisik yang prima, dibuktikan dengan surat keterangan sehat dari dokter.</li>
+                        <li><strong>Kompetensi:</strong> Peserta diharapkan memiliki pengetahuan dan keterampilan di cabang olahraga yang dipilih, baik dari pengalaman amatir maupun profesional.</li>
+                        <li><strong>Komitmen:</strong> Bersedia mengikuti seluruh rangkaian acara, mulai dari pembukaan, sesi latihan, hingga pertandingan final, dengan menjaga sportifitas dan integritas.</li>
+                        <li><strong>Dokumen Tambahan:</strong> Menyertakan kartu identitas yang masih berlaku, serta pas foto terbaru ukuran 4x6 cm (2 lembar).</li>
+                    </ul>
+                </article>
+                <article>
+                    <h2>Jadwal dan Lokasi</h2>
+                    <p>
+                        Lomba Olahraga Kemerdekaan akan diadakan pada <strong>tanggal 17 Agustus 2024</strong>, bertepatan dengan Hari Kemerdekaan Indonesia. Acara akan diselenggarakan di <strong>Stadion Harapan Bangsa, Banda Aceh</strong>. Kami mengundang seluruh peserta untuk hadir pukul 07.00 WIB untuk sesi persiapan dan pengarahan teknis. Pastikan untuk datang tepat waktu agar tidak terlewatkan dari acara pembukaan yang akan berlangsung meriah!
+                    </p>
+                </article>
+            </div>
+
+            <!-- Bagian Aside -->
+            <aside>
+                <h2>Foto & Biodata</h2>
+                <p>Upload foto terbaikmu dan berikan informasi singkat tentang diri, Umur, dan Cabang olahraga yang kamu pilih.</p>
+                <img src="Cipung.jpeg" alt="Foto Peserta">
+                <div class="biodata">
+                    <p><strong>Nama:</strong> Cipung</p>
+                    <p><strong>Umur:</strong> 17 tahun</p>
+                    <p><strong>Cabang Olahraga:</strong> Sepak Bola</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Bagian Footer -->
+    <footer>
+        <p>&copy; 2024 Panitia Lomba Olahraga Kemerdekaan. Merdeka!</p>
+    </footer>
+
+</body>
+</html>
